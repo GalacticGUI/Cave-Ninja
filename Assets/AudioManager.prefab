@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1650152495831298}
+  m_IsPrefabParent: 1
+--- !u!1 &1650152495831298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4548387554308146}
+  - component: {fileID: 114646314108806748}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4548387554308146
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1650152495831298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114646314108806748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1650152495831298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259a1bb871a41a940a8182b1e03c430e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Button_Click
+    clip: {fileID: 8300000, guid: f5ab874fd1f4a4c7cb3ff691b729fbfa, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button_Click_Slide
+    clip: {fileID: 8300000, guid: 43f91a4f08a1a4d42afd2dda8460cbc5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Player_Jump
+    clip: {fileID: 8300000, guid: d3ba9f48bddcc144ca2c49fb0ada3fbf, type: 3}
+    volume: 0.67
+    pitch: 0.88
+    loop: 0
+    source: {fileID: 0}
+  - name: Player_Take_Damage
+    clip: {fileID: 8300000, guid: 3321797bd42ad734297f05015a51ce8b, type: 3}
+    volume: 0.92
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pickup_Key
+    clip: {fileID: 8300000, guid: 1a9d742251f353349833c171ba8cc571, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pickup_Health
+    clip: {fileID: 8300000, guid: 1234fc06bb3b6f243a2ad314ba96bad9, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Player_Dash
+    clip: {fileID: 8300000, guid: 0f8a85d05d43248cfabc1618bc6476a1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Exit_Opening
+    clip: {fileID: 8300000, guid: 4f72e28d2c3bc134793330f03c5c63df, type: 3}
+    volume: 0.95
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Music_Menu
+    clip: {fileID: 8300000, guid: 507aac231341d43f28005e39b891fb0d, type: 3}
+    volume: 0.72
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Music_Level_1
+    clip: {fileID: 8300000, guid: ccb2d133c7e3742b5b0be61d8d72740f, type: 3}
+    volume: 0.72
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Wilhelm_Scream
+    clip: {fileID: 8300000, guid: fb6f3fbb88d2659418b86b89fc1c20cd, type: 3}
+    volume: 0.91
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  audioMixer: {fileID: 24100000, guid: 37487696f6c7b3244a632277e12ea03d, type: 2}

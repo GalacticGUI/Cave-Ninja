@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Trap
+  - Enemy
+  - Key
+  - Health
+  - Ground
+  - Exit
+  - Patrol
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Static Environment
+  - Moving Platforms
+  - Trap
+  - Enemy
+  - Pick Ups
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Parallax_Backgrounds
+    uniqueID: 4264580337
+    locked: 0
+  - name: Static_Backgrounds
+    uniqueID: 130349821
+    locked: 0
+  - name: Character
+    uniqueID: 1229325587
+    locked: 0
+  - name: Static_Foregrounds
+    uniqueID: 2844906789
+    locked: 0
+  - name: Parallax_Foregrounds
+    uniqueID: 2768663241
+    locked: 0
